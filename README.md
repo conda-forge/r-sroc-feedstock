@@ -14,14 +14,16 @@ Summary: This package contains a collection of functions to perform nonparametri
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-sroc-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-sroc-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-sroc-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-sroc-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-sroc-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-sroc-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-sroc-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-sroc-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-sroc-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-sroc-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-sroc-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-sroc-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-sroc/badges/version.svg)](https://anaconda.org/conda-forge/r-sroc)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-sroc/badges/downloads.svg)](https://anaconda.org/conda-forge/r-sroc)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--sroc-green.svg)](https://anaconda.org/conda-forge/r-sroc) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-sroc.svg)](https://anaconda.org/conda-forge/r-sroc) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-sroc.svg)](https://anaconda.org/conda-forge/r-sroc) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-sroc.svg)](https://anaconda.org/conda-forge/r-sroc) |
 
 Installing r-sroc
 =================
