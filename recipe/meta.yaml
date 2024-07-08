@@ -1,7 +1,6 @@
 {% set version = '0.1-2' %}
 
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-sroc
@@ -15,8 +14,7 @@ source:
   sha256: a3815fbf0c78d9f03ff2c456f0573347d12cbf43173752c872aed9346176e632
 
 build:
-  merge_build_host: True  # [win]
-  number: 1006
+  number: 1007
   rpaths:
     - lib/R/lib/
     - lib/
@@ -24,9 +22,10 @@ build:
 
 requirements:
   build:
-    - posix                # [win]
     - {{ compiler('c') }}        # [unix]
+    - {{ stdlib("c") }}          # [unix]
     - {{ compiler('m2w64_c') }}  # [win]
+    - {{ stdlib("m2w64_c") }}    # [win]
   host:
     - r-base
 
