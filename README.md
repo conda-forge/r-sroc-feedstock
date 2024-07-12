@@ -9,7 +9,7 @@ About r-sroc
 
 Home: https://CRAN.R-project.org/package=sROC
 
-Package license: GPL (>= 3)
+Package license: GPL-3.0-or-later
 
 Summary: This package contains a collection of functions to perform nonparametric estimation of receiver operating characteristic (ROC) curves for continuous data.
 
@@ -18,7 +18,7 @@ About r-sroc
 
 Home: https://CRAN.R-project.org/package=sROC
 
-Package license: GPL (>= 3)
+Package license: GPL-3.0-or-later
 
 Summary: This package contains a collection of functions to perform nonparametric estimation of receiver operating characteristic (ROC) curves for continuous data.
 
